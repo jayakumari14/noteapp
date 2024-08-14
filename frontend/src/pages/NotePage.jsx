@@ -1,4 +1,9 @@
+import data from "../assets/data";
+import { useParams } from "react-router-dom";
+
 const NotePage = () => {
+  let nodeId = useParams();
+  console.log(nodeId);
   return (
     <>
       <div>
